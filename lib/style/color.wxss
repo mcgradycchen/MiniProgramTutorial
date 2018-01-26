@@ -1,0 +1,15 @@
+.bc_green {
+  background-color: #1AAD16;
+}
+
+.bc_red {
+  background-color: #E64759;
+}
+
+.bc_blue {
+  background-color: #1bc98e;
+}
+
+.bc_yellow {
+  background-color: #dfb81c;
+}
