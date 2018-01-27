@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
-	"appid": "wxf36342d108941d02",
-	"projectname": "maididi",
+	"appid": "touristappid",
+	"projectname": "MiniProgramToturial",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
