@@ -10,7 +10,10 @@
   <!--
   <view bindtap="bindMapTap">Map</view>
   -->
-  <view bindtap="bingViewTap">View</view>
-  <view bindtap="bingScrollViewTap">Scroll View</view>
+  <view class="section-com-item" bindtap="bindViewTap">View</view>
+  <view class="section-com-item" bindtap="bindScrollViewTap">Scroll View</view>
+  <view class="section-com-item" bindtap="bindSwiperTap">Swiper</view>
+  <view class="section-com-item" bindtap="bindMovableViewTap">Movable View</view>
+  <view class="section-com-item" bindtap="bindCoverViewTap">Cover View</view>
 </view>
 

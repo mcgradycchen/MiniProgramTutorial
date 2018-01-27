@@ -1,28 +1,6 @@
 /* pages/components/view/view/view.wxss */
 @import "../../../../lib/style/color.wxss";
 
-.section {
-  color: #333;
-  background-color: #f5f5f5;
-  border-color: #ddd;
-  height: 120px;
-}
-
-view.chapter {
-  display:flex; 
-  flex-direction:row; 
-  align-items: center; 
-  justify-content: center;
-  height: 80%;
-}
-
-view.chapter h {
-  color: #CCC;
-  border-bottom: 1.5px solid #CCC;
-  width: auto;
-  padding-bottom: 3px;
-}
-
 .flex-item {
   display: flex;
   align-items: center;

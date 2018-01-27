@@ -1,0 +1,18 @@
+/* pages/components/view/swiper/swiper.wxss */
+@import "../../../../lib/style/color.wxss";
+.btn-area {
+  display: table;
+  text-align: center;
+  /*justify-content: center;*/
+  margin-top: 10px;
+  width: 100%;
+}
+
+button {
+  width: 85%;
+}
+
+.section_slider {
+  display: block;
+  margin-top: 10px;
+}

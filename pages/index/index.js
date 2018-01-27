@@ -10,19 +10,34 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindLogTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
-  bingViewTap: function() {
+  bindViewTap: function() {
     wx.navigateTo({
       url: '../components/view/view/view'
     })
   },
-  bingScrollViewTap: function() {
+  bindSwiperTap: function() {
+    wx.navigateTo({
+      url: '../components/view/swiper/swiper',
+    })
+  },
+  bindScrollViewTap: function() {
     wx.navigateTo({
       url: '../components/view/scroll-view/scroll-view',
+    })
+  },
+  bindMovableViewTap: function() {
+    wx.navigateTo({
+      url: '../components/view/movable-view/movable-view',
+    })
+  },
+  bindCoverViewTap: function() {
+    wx.navigateTo({
+      url: '../components/view/cover-view/cover-view',
     })
   },
   onLoad: function () {

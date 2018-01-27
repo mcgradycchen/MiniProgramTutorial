@@ -1,0 +1,24 @@
+<!--pages/components/view/swiper/swiper.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Swiper</h>
+  </view>
+</view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="btn-area">
+  <button size="mini" bindtap="changeIndicatorDots"> indicator-dots </button>
+  <button size="mini" bindtap="changeAutoplay"> autoplay </button>
+</view>
+<view class="section_slider">
+  <text>Interval</text>
+  <slider bindchange="intervalChange" show-value min="500" max="2000"/>
+  <text>Duration</text>
+  <slider bindchange="durationChange" show-value min="1000" max="10000"/>
+</view>

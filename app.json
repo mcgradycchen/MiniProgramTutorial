@@ -4,12 +4,15 @@
     "pages/logs/logs",
     "pages/components/map/map",
     "pages/components/view/view/view",
-    "pages/components/view/scroll-view/scroll-view"
+    "pages/components/view/scroll-view/scroll-view",
+    "pages/components/view/swiper/swiper",
+    "pages/components/view/movable-view/movable-view",
+    "pages/components/view/cover-view/cover-view"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Mini Program Tutorial",
     "navigationBarTextStyle": "black"
   }
 }

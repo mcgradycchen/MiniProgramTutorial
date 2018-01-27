@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 10px;
 }
+
+.section-com-item {
+  text-align: left;
+  width: 120px;
+}
