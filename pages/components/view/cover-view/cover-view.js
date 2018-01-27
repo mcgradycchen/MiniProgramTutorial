@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    playTime: "00:00"
+    playTime: "00:00:00"
   },
 
   /**
