@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "touristappid",
-	"projectname": "MiniProgramToturial",
+	"projectname": "MiniProgramTutorial",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
