@@ -1,0 +1,25 @@
+<!--pages/components/basic/icon/icon.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Icon Basic</h>
+  </view>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconSize}}" wx:key="">
+    <icon type="success" size="{{item}}"/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}" wx:key="">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+
+
+<view class="group">
+  <block wx:for="{{iconColor}}" wx:key="">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+</view>

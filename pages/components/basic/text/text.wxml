@@ -1,0 +1,14 @@
+<!--pages/components/basic/text/text.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Text Basic</h>
+  </view>
+</view>
+
+<view class="btn-area">
+  <view class="body-view">
+    <text>{{text}}</text>
+    <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button>
+  </view>
+</view>

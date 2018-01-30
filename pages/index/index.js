@@ -40,6 +40,16 @@ Page({
       url: '../components/view/cover-view/cover-view',
     })
   },
+  bindIconBasicTap: function() {
+    wx.navigateTo({
+      url: '../components/basic/icon/icon',
+    })
+  },
+  bindTextBasicTap: function() {
+    wx.navigateTo({
+      url: '../components/basic/text/text',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

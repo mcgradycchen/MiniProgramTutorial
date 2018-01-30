@@ -15,6 +15,8 @@
   <view class="section-com-item" bindtap="bindSwiperTap">Swiper</view>
   <view class="section-com-item" bindtap="bindMovableViewTap">Movable View</view>
   <view class="section-com-item" bindtap="bindCoverViewTap">Cover View</view>
+  <view class="section-com-item" bindtap="bindIconBasicTap">Icon Basic</view>
+  <view class="section-com-item" bindtap="bindTextBasicTap">Text Basic</view>
   <!--<web-view src="http://coreui.io/demo/React_Demo/">Core UI</web-view>-->
 </view>
 

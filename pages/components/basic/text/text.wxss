@@ -1,0 +1,2 @@
+/* pages/components/basic/text/text.wxss */
+@import "../../../../lib/style/color.wxss";
