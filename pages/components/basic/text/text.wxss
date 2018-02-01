@@ -1,2 +1,16 @@
 /* pages/components/basic/text/text.wxss */
 @import "../../../../lib/style/color.wxss";
+
+.btn-area {
+  width:90%;
+  margin-left:calc(10% / 2);
+}
+
+button {
+  width: 100%;
+}
+
+text {
+  display: block;
+}
+
