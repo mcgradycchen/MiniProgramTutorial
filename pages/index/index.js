@@ -50,6 +50,16 @@ Page({
       url: '../components/basic/text/text',
     })
   },
+  bindRichTextBasicTap: function() {
+    wx.navigateTo({
+      url: '../components/basic/rich-text/rich-text',
+    })
+  },
+  bindProgressBasicTap: function() {
+    wx.navigateTo({
+      url: '../components/basic/progress/progress',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

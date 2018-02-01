@@ -9,7 +9,9 @@
     "pages/components/view/movable-view/movable-view",
     "pages/components/view/cover-view/cover-view",
     "pages/components/basic/icon/icon",
-    "pages/components/basic/text/text"
+    "pages/components/basic/text/text",
+    "pages/components/basic/rich-text/rich-text",
+    "pages/components/basic/progress/progress"
   ],
   "window": {
     "backgroundTextStyle": "light",

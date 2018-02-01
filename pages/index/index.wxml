@@ -17,6 +17,8 @@
   <view class="section-com-item" bindtap="bindCoverViewTap">Cover View</view>
   <view class="section-com-item" bindtap="bindIconBasicTap">Icon Basic</view>
   <view class="section-com-item" bindtap="bindTextBasicTap">Text Basic</view>
+  <view class="section-com-item" bindtap="bindRichTextBasicTap">Rich Text Basic</view>
+  <view class="section-com-item" bindtap="bindProgressBasicTap">Progress Basic</view>
   <!--<web-view src="http://coreui.io/demo/React_Demo/">Core UI</web-view>-->
 </view>
 

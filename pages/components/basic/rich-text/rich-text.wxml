@@ -1,0 +1,8 @@
+<!--pages/components/basic/rich-text/rich-text.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Rich Text Basic</h>
+  </view>
+</view>
+
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>

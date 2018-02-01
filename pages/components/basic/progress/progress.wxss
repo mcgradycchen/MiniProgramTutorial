@@ -1,0 +1,7 @@
+/* pages/components/basic/progress/progress.wxss */
+
+@import "../../../../lib/style/color.wxss";
+
+progress {
+  margin-top: 10px;
+}
