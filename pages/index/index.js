@@ -47,13 +47,13 @@ Page({
         "name": "progress",
         "display_name": "Progress Basic"
       }, {
-        "category": "view",
-        "name": "view",
-        "display_name": "View"
+        "category": "form",
+        "name": "button",
+        "display_name": "Button Form"
       }, {
-        "category": "view",
-        "name": "view",
-        "display_name": "View"
+        "category": "form",
+        "name": "checkbox",
+        "display_name": "Checkbox Form"
       }
     ]
   },

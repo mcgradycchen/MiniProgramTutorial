@@ -11,7 +11,9 @@
     "pages/components/basic/icon/icon",
     "pages/components/basic/text/text",
     "pages/components/basic/rich-text/rich-text",
-    "pages/components/basic/progress/progress"
+    "pages/components/basic/progress/progress",
+    "pages/components/form/button/button",
+    "pages/components/form/checkbox/checkbox"
   ],
   "window": {
     "backgroundTextStyle": "light",

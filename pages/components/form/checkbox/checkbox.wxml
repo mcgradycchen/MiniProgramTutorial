@@ -1,0 +1,12 @@
+<!--pages/components/form/checkbox/checkbox.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Checkbox Form</h>
+  </view>
+</view>
+
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}" wx:key="">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>

@@ -1,0 +1,12 @@
+/* pages/components/form/checkbox/checkbox.wxss */
+@import "../../../../lib/style/color.wxss";
+
+checkbox-group {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.checkbox {
+  width: 100%;
+  display: block;
+}

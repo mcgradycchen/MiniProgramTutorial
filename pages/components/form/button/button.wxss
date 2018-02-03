@@ -1,0 +1,2 @@
+/* pages/components/form/button/button.wxss */
+@import "../../../../lib/style/color.wxss";
