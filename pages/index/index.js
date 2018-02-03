@@ -1,15 +1,76 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    components: [
+      {
+        "category": "view",
+        "name": "view",
+        "display_name": "View"
+      }, {
+        "category": "view",
+        "name": "scroll-view",
+        "display_name": "Scorll View"
+      }, {
+        "category": "view",
+        "name": "swiper",
+        "display_name": "Swiper"
+      }, {
+        "category": "view",
+        "name": "movable-view",
+        "display_name": "Movable View"
+      }, {
+        "category": "view",
+        "name": "cover-view",
+        "display_name": "Cover View"
+      }, {
+        "category": "basic",
+        "name": "icon",
+        "display_name": "Icon Basic"
+        }, {
+        "category": "basic",
+        "name": "text",
+        "display_name": "Text Basic"
+      }, {
+        "category": "basic",
+        "name": "rich-text",
+        "display_name": "Rich Text"
+      }, {
+        "category": "basic",
+        "name": "progress",
+        "display_name": "Progress Basic"
+      }, {
+        "category": "view",
+        "name": "view",
+        "display_name": "View"
+      }, {
+        "category": "view",
+        "name": "view",
+        "display_name": "View"
+      }
+    ]
   },
   //事件处理函数
+  bingNavigateComponentTap: function(event) {
+    if (event 
+        && event.currentTarget 
+        && event.currentTarget.dataset
+        && event.currentTarget.dataset.category
+        && event.currentTarget.dataset.name) {
+      var category = event.currentTarget.dataset.category;
+      var name = event.currentTarget.dataset.name;
+      wx.navigateTo({
+        url: utils.formatNavigateComponentPath(category, name)
+      });
+    }
+  },
   bindLogTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
@@ -17,7 +78,7 @@ Page({
   },
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../components/view/view/view'
+      url: utils.formatNavigateComponentPath('view', 'view')
     })
   },
   bindSwiperTap: function() {

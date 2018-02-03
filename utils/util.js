@@ -26,7 +26,14 @@ const formatPlayTime = sec_num => {
    
 }
 
+const formatNavigateComponentPath = (category, name) => {
+  return '../components/' + category +
+          '/' + name + 
+          '/' + name;
+}
+
 module.exports = {
   formatTime: formatTime,
-  formatPlayTime: formatPlayTime
+  formatPlayTime: formatPlayTime,
+  formatNavigateComponentPath: formatNavigateComponentPath
 }
