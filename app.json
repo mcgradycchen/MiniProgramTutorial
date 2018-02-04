@@ -13,7 +13,8 @@
     "pages/components/basic/rich-text/rich-text",
     "pages/components/basic/progress/progress",
     "pages/components/form/button/button",
-    "pages/components/form/checkbox/checkbox"
+    "pages/components/form/checkbox/checkbox",
+    "pages/components/form/form/form"
   ],
   "window": {
     "backgroundTextStyle": "light",

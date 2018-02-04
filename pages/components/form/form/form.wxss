@@ -1,0 +1,27 @@
+/* pages/components/form/form/form.wxss */
+@import "../../../../lib/style/color.wxss";
+
+.section_gap {
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+label {
+  width: 100%;
+  display: block;
+}
+
+view.btn-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  width: 80%;
+  margin-top: 5px;
+}

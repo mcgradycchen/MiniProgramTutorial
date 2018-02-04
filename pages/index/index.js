@@ -54,6 +54,10 @@ Page({
         "category": "form",
         "name": "checkbox",
         "display_name": "Checkbox Form"
+      }, {
+        "category": "form",
+        "name": "form",
+        "display_name": "Form Form"
       }
     ]
   },
