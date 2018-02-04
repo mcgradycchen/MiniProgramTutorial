@@ -58,6 +58,10 @@ Page({
         "category": "form",
         "name": "form",
         "display_name": "Form Form"
+      }, {
+        "category": "form",
+        "name": "input",
+        "display_name": "Input Form"
       }
     ]
   },

@@ -1,0 +1,41 @@
+<!--pages/components/form/input/input.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Input Form</h>
+  </view>
+</view>
+
+<view class="section gap">
+  <input placeholder="auto focus input" focus="{{true}}"/>
+</view>
+<view class="section gap">
+  <input placeholder="only focus when click button" focus="{{focus}}" />
+  <view class="btn-area gap">
+    <button bindtap="bindButtonTap" size="mini">focus input</button>
+  </view>
+</view>
+<view class="section gap">
+  <input  maxlength="10" placeholder="Max Length is 10" />
+</view>
+<view class="section gap">
+  <view class="section__title">what you input：{{inputValue}}</view>
+  <input  bindinput="bindKeyInput" placeholder="sync to view"/>
+</view>
+<view class="section gap">
+  <input  bindinput="bindReplaceInput" placeholder="continous 1 will be 2" />
+</view>
+<view class="section gap">
+  <input password type="number" />
+</view>
+<view class="section gap">
+  <input password type="text" />
+</view>
+<view class="section gap">
+  <input type="digit" placeholder="digital input"/>
+</view>
+<view class="section gap">
+  <input type="idcard" placeholder="id card input" />
+</view>
+<view class="section gap">
+  <input placeholder-style="color:red" placeholder="placeholder color is red" />
+</view>

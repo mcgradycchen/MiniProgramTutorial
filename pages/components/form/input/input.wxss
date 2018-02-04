@@ -1,0 +1,13 @@
+/* pages/components/form/input/input.wxss */
+@import "../../../../lib/style/color.wxss";
+
+input {
+  background: #fff;
+  border-top: 10px solid #f5f5f5;
+}
+
+button {
+  width: 90%;
+  margin-left: calc(10% / 2);
+  margin-top: 10px;
+}
