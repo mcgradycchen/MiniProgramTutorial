@@ -1,0 +1,15 @@
+/* pages/components/form/picker/picker.wxss */
+@import "../../../../lib/style/color.wxss";
+
+.section__title {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+picker {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #fff;
+}

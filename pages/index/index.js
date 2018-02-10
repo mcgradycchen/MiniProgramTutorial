@@ -66,6 +66,10 @@ Page({
         "category": "form",
         "name": "label",
         "display_name": "Label Form"
+      }, {
+        "category": "form",
+        "name": "picker",
+        "display_name": "Picker Form"
       }
     ]
   },
