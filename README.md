@@ -24,6 +24,22 @@ It's easy to learn and use.
     * Swiper
     * Movable View
     * Cover View
+
+  * Basic
+
+    * Icon Basic
+    * Text Basic
+    * Rich Text
+    * Progress Basic
+  
+  * Form
+  
+    * Button Form
+    * Checkbox Form
+    * Form Form
+    * Input Form
+    * Label Form
+    * Picker Form
     
 # Contribution
 
