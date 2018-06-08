@@ -17,7 +17,8 @@
     "pages/components/form/form/form",
     "pages/components/form/input/input",
     "pages/components/form/label/label",
-    "pages/components/form/picker/picker"
+    "pages/components/form/picker/picker",
+    "pages/components/form/picker-view/picker-view"
   ],
   "window": {
     "backgroundTextStyle": "light",

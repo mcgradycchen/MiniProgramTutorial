@@ -70,6 +70,10 @@ Page({
         "category": "form",
         "name": "picker",
         "display_name": "Picker Form"
+      }, {
+        "category": "form",
+        "name": "picker-view",
+        "display_name": "Picker View Form"
       }
     ]
   },

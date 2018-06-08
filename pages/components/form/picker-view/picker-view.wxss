@@ -1,0 +1,16 @@
+/* pages/components/form/picker-view/picker-view.wxss */
+@import "../../../../lib/style/color.wxss";
+
+.section__title {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+picker-view {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: #fff;
+}
