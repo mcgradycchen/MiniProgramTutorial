@@ -41,6 +41,7 @@ It's easy to learn and use.
     * Label Form
     * Picker Form
     * Picker View Form
+    * Radio Form
     
 # Contribution
 

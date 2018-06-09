@@ -74,6 +74,10 @@ Page({
         "category": "form",
         "name": "picker-view",
         "display_name": "Picker View Form"
+      }, {
+        "category": "form",
+        "name": "radio",
+        "display_name": "Radio Form"
       }
     ]
   },

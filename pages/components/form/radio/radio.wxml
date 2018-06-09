@@ -1,0 +1,11 @@
+<!--pages/components/form/radio/radio.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Picker Form</h>
+  </view>
+</view>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
