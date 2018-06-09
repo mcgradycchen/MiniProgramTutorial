@@ -1,0 +1,11 @@
+<!--pages/components/form/switch/switch.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Switch Form</h>
+  </view>
+</view>
+
+<view class="body-view">
+    <switch checked bindchange="switch1Change"/>
+    <switch bindchange="switch2Change"/>
+</view>

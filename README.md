@@ -42,6 +42,8 @@ It's easy to learn and use.
     * Picker Form
     * Picker View Form
     * Radio Form
+    * Slider Form
+    * Switch Form
     
 # Contribution
 

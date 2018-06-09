@@ -82,6 +82,10 @@ Page({
         "category": "form",
         "name": "slider",
         "display_name": "Slider Form"
+      }, {
+        "category": "form",
+        "name": "switch",
+        "display_name": "Switch Form"
       }
     ]
   },
