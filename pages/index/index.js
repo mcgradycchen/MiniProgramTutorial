@@ -78,6 +78,10 @@ Page({
         "category": "form",
         "name": "radio",
         "display_name": "Radio Form"
+      }, {
+        "category": "form",
+        "name": "slider",
+        "display_name": "Slider Form"
       }
     ]
   },

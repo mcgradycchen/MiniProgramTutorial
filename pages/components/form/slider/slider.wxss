@@ -1,4 +1,4 @@
-/* pages/components/form/radio/radio.wxss */
+/* pages/components/form/slider/slider.wxss */
 @import "../../../../lib/style/color.wxss";
 
 .section__title {
@@ -6,8 +6,4 @@
   margin-left: 5px;
   padding-top: 10px;
   text-align: center;
-}
-
-.radio {
-  display: block;
 }
