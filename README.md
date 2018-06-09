@@ -44,6 +44,7 @@ It's easy to learn and use.
     * Radio Form
     * Slider Form
     * Switch Form
+    * Textarea Form
     
 # Contribution
 

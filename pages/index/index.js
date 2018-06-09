@@ -86,6 +86,10 @@ Page({
         "category": "form",
         "name": "switch",
         "display_name": "Switch Form"
+      }, {
+        "category": "form",
+        "name": "textarea",
+        "display_name": "Textarea Form"
       }
     ]
   },
