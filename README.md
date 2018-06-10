@@ -45,6 +45,14 @@ It's easy to learn and use.
     * Slider Form
     * Switch Form
     * Textarea Form
+  
+  * Navigator
+
+    * Navigator
+
+  * Media
+
+    * Audio
     
 # Contribution
 

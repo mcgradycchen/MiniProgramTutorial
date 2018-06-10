@@ -1,0 +1,19 @@
+/* pages/components/navigator/navigator/navigator.wxss */
+@import "../../../../lib/style/color.wxss";
+
+.section__title {
+  padding-bottom: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/** wxss **/
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:red;
+}

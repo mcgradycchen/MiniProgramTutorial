@@ -90,6 +90,10 @@ Page({
         "category": "form",
         "name": "textarea",
         "display_name": "Textarea Form"
+      }, {
+        "category": "navigator",
+        "name": "navigator",
+        "display_name": "Navigator Navigator"
       }
     ]
   },

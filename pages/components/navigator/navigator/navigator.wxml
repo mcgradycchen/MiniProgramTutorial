@@ -1,0 +1,20 @@
+<!--pages/components/navigator/navigator/navigator.wxml-->
+<view class="section">
+  <view class="chapter">
+   <h>Switch Form</h>
+  </view>
+</view>
+<!-- sample.wxml -->
+<view class="btn-area">
+  <navigator url="/pages/logs/logs?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="/pages/logs/logs?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
+</view>
+
+<!-- navigator.wxml -->
+<view style="text-align:center"> {{title}} </view>
+<view> 点击左上角返回回到之前页面 </view>
+<!-- redirect.wxml -->
+<view style="text-align:center"> {{title}} </view>
+<view> 点击左上角返回回到上级页面 </view>

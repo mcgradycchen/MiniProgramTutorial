@@ -22,7 +22,8 @@
     "pages/components/form/radio/radio",
     "pages/components/form/slider/slider",
     "pages/components/form/switch/switch",
-    "pages/components/form/textarea/textarea"
+    "pages/components/form/textarea/textarea",
+    "pages/components/navigator/navigator/navigator"
   ],
   "window": {
     "backgroundTextStyle": "light",
